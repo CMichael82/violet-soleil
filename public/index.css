@@ -29,7 +29,7 @@
 	height: 95%;
 }
 
-#textarea1 {
+#message {
 	background-color: #E6E6E6;
 	height: 500px;
 	width: 95%;
@@ -40,12 +40,18 @@
 }
 
 .frame {
-	background-color:#F4F4F4;
-	border: solid 7px #BD1ABD;
+	background-color: rgb(236, 233, 233);
+	border: solid 15px #BD1ABD;
+	border-left-color: #e128e1;
+	border-bottom-color: #E755E7;
 	box-sizing: border-box;
 	width: 95%;
 	margin: 10px;
 	padding: 15px;
 	height: 80vh;
+}
 
+#past {
+	padding-left: 50px;
+	line-height: 30px;
 }
